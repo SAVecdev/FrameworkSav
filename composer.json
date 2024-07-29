@@ -1,0 +1,11 @@
+{
+    "name": "savecdev/frameworksav",
+    "description": "Este es un proyecto personal de un Framework",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "FrameworkSav\\": "src/php/"
+      }
+    }
+  }
+  
