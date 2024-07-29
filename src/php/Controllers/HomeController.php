@@ -2,10 +2,13 @@
 
 namespace FrameworkSav\Controllers;
 
+use FrameworkSav\View;
+
 class HomeController
 {
     public function index()
     {
-        include __DIR__ . '/../Views/home.php';
+        $data = ['message' => 'Welcome to FrameworkSav Home!'];
+        View::render('home', $data);
     }
 }
